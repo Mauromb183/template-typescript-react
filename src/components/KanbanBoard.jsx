@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import List from './List'
+import List from './List';
 
-class KanbanBoard extends Component {
+export default class KanbanBoard extends Component {
 render(){
  return (
  <div className="app">
@@ -18,4 +18,4 @@ render(){
  );
  }
 }
-export default KanbanBoard;
+/*export default KanbanBoard;*/

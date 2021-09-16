@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Card from './Card';
 
-class List extends Component {
+export default class List extends Component {
  render() {
  var cards = this.props.cards.map((card) => {
  return <Card id={card.id}
@@ -17,4 +17,3 @@ class List extends Component {
  );
  }
 }
-export default List;

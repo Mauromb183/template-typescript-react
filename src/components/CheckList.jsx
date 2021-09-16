@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class CheckList extends Component {
+export default class CheckList extends Component {
  render() {
  let tasks = this.props.tasks.map((task) => (
  <li className="checklist__task">
@@ -18,4 +18,3 @@ class CheckList extends Component {
  }
 }
 
-export default CheckList;

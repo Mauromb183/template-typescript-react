@@ -32,6 +32,29 @@ let cardsList = [
   }
   ]
   },
+  {
+    id: 3,
+    title: "tiki tiki",
+    description: "hello world",
+    status: "todo",
+    tasks: [
+    {
+    id: 1,
+    name: "tilin",
+    done: true
+    },
+    {
+    id: 2,
+    name: "pingui",
+    done: false
+    },
+    {
+    id: 3,
+    name: "google",
+    done: false
+    }
+    ]
+    }
  ];
 
 function App() {
