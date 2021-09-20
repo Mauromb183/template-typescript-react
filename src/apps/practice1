@@ -1,4 +1,4 @@
-import './practice1.css';
+import './App.css';
 import KanbanBoard from './components/practice1/KanbanBoard';
 
 let cardsList = [
